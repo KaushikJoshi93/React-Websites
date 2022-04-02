@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.user_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9781e6;
+}
+.user_heading .bi-person-circle{
+    font-size: 28px;
+    padding-left: 10%;
+    padding-right: 7px;
+    cursor: pointer;
+    color: black;
+}  
+.user_heading .bi-x{
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    left: 45px;
+}  
+@media only screen and (max-width:900px){
+    .user_heading{
+        height: 30px;
+    }
+    .user_heading .bi-person-circle{
+        font-size: 18px;
+    }
+    .user_heading .bi-x{
+        font-size: 20px;
+        left: 25px;
+    }
+}

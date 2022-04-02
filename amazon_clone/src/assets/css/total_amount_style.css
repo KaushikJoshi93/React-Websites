@@ -1,0 +1,49 @@
+.checkout_container{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    position:fixed;
+    top:92vh;
+}
+.reset_container{
+    width: 25%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.reset_container p{
+    font-size: 25px;
+}
+.total_amount_container{
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.total_amount_container p{
+    font-size: 25px;
+    color: black;
+}
+.pay_container{
+    width: 25%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.pay_container p{
+    font-size: 25px;
+}
+@media only screen and (max-width:600px){
+    .reset_container p , .total_amount_container p , .pay_container p{
+        font-size: 12px;
+    }
+    .checkout_container{
+        height: 8vh;
+    }
+}

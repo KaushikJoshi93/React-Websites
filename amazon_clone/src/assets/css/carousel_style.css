@@ -1,0 +1,19 @@
+.carousel img{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+.carousel .bi{
+    position: absolute;
+    font-size: 48px;
+    cursor: pointer;
+}
+.carousel .bi-arrow-right{
+    right: 0px;
+    top: 250px;
+}
+.carousel .bi-arrow-left{
+    left: 0px;
+    top: 250px;
+}

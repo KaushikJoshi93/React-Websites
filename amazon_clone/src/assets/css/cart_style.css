@@ -1,0 +1,31 @@
+.bi-cart{
+    font-size: 28px;
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
+#cart_value{
+    /* position: relative;
+    top: 7px;
+    left: -6px; */
+    font-weight: bold;
+    background-color: cyan;
+    height: 20px;
+    width: 19px;
+    text-align: center;
+    border-radius: 7px;
+    position: absolute;
+    right: 2px;
+    
+}
+@media only screen and (max-width:900px){
+    .bi-cart{
+        font-size: 20px;
+    }
+    #cart_value{
+        font-size: 10px;
+        height: 14px;
+        width: 10px;
+        right: 7px;
+    }
+}

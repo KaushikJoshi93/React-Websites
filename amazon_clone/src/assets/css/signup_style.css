@@ -1,0 +1,46 @@
+.signup_box{
+    margin: auto;
+    margin-top: 20vh;
+    width: 20%;
+    height: 47vh;
+    background: aqua;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+}
+.signup_box img{
+    padding: 9px;
+    margin-left: 20%;
+    margin-top: 0px;
+    border-radius: 12px;
+    display: block;
+    width: 140px;
+    height: 50px;
+}
+.signup_box input{
+    border-radius: 4px;
+    padding: 10px;
+    margin: 8px;
+    margin-left: 10%;
+    padding-left: 29px;
+    border-radius: 9px;
+    max-width: 100%;
+}
+.signup_box i{
+    position: absolute;
+    padding: 18px;
+    padding-left: 37px;
+}
+.signup_box input[type="submit"]{
+    background-color:rgb(36, 233, 36);
+    text-align: center;
+    padding: 10px;
+    width: 75%;
+    border-radius: 12px;
+}
+@media only screen and (max-width:1300px){
+    .signup_box{
+        width: 250px;
+        height: 51vh;
+    }
+}
